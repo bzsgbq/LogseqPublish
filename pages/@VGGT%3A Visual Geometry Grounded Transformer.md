@@ -1,3 +1,4 @@
+public:: true
 title:: @VGGT: Visual Geometry Grounded Transformer
 
 - [[#blue]]==网页==
@@ -222,7 +223,6 @@ collapsed:: true
 			- 通过 **交替注意力** 高效整合多视角与单视角信息；
 			- 显式预测相机、深度、点图和跟踪特征，并在第一相机坐标系下统一表示。
 ## 4. Experiments
-collapsed:: true
 	- 本节我们将方法与当前最先进的方法进行比较，涵盖多个任务，以展示其有效性。关于架构、训练损失和数据集的详细讨论包含在补充材料中。
 	- ### Training and Data
 		- ![image.png](../assets/image_1755970326969_0.png){:width 600}
@@ -338,12 +338,10 @@ collapsed:: true
 					- 上：VGGT 的跟踪模块 $\mathcal{T}$ 在静态场景的无序图像集合上输出关键点轨迹；
 					- 下：我们微调 VGGT 的骨干以增强动态点跟踪器 CoTracker [38]，用于处理视频序列输入。
 ## 5. Conclusions
-collapsed:: true
 	- 我们提出了 **Visual Geometry Grounded Transformer (VGGT)**，一个前馈神经网络，能够直接对数百个输入视角估计所有关键的三维场景属性。它在多个 3D 任务上取得了最先进的结果，包括：相机参数估计、多视角深度估计、稠密点云重建以及 3D 点跟踪。
 	- 我们的方法是一种简洁的、以神经网络为核心的方案，有别于传统依赖视觉几何后优化的做法。后者往往需要额外的计算步骤来获得准确且任务特定的结果。而 VGGT 的简洁性与高效性使其特别适合实时应用，这也是其相较于优化类方法的另一项优势。
 - ---
 ## [[#blue]]==Insights==
-collapsed:: true
 	- ![image.png](../assets/image_1755972116418_0.png){:width 600}
 	- [[#green]]==2D->2D端到端==
 	- ![image.png](../assets/image_1755972146678_0.png){:width 600}
