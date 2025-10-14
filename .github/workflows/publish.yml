@@ -1,0 +1,33 @@
+name: Publish Logseq graph
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    name: Publish Logseq graph
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build site
+        uses: logseq/publish-spa@v0.3.0
+        with:
+          graph-directory: .
+          output-directory: www
+          version: 0.10.6
+          theme-mode: light
+          accent-color: blue
+
+      - name: Add .nojekyll
+        run: touch $GITHUB_WORKSPACE/www/.nojekyll
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: www
