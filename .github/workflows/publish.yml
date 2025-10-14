@@ -9,12 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: logseq/publish-spa@v0.3.0
-        with:
-          # graph-directory: . # 指定存放笔记的文件夹名
-          # output-directory: www         # 指定输出的文件夹名
-          theme-mode: "light"             # 设置为暗色主题 (可选 "dark" 或 "light")
-          accent-color: "blue"            # 设置强调色 (可选 "tomato", "red", "green" 等多种颜色)
-          version: 0.7.9
       - name: Add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: Deploy 🚀
