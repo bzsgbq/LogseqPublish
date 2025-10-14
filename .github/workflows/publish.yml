@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: logseq/publish-spa@v0.3.0
-      with:
+        with:
           # graph-directory: . # 指定存放笔记的文件夹名
           # output-directory: www         # 指定输出的文件夹名
           theme-mode: "light"             # 设置为暗色主题 (可选 "dark" 或 "light")
