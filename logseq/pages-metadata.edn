@@ -1,6 +1,6 @@
 [{:block/name "@vggt: visual geometry grounded transformer",
   :block/created-at 1760450908800,
-  :block/updated-at 1760451860877}
+  :block/updated-at 1760455027672}
  {:block/name "a",
   :block/created-at 1760450624143,
   :block/updated-at 1760450624143}
@@ -42,7 +42,13 @@
   :block/updated-at 1760450624143}
  {:block/name "oct 14th, 2025",
   :block/created-at 1760450359155,
-  :block/updated-at 1760450908801}
+  :block/updated-at 1760503314482}
+ {:block/name "oct 15th, 2025",
+  :block/created-at 1760457603866,
+  :block/updated-at 1760457603866}
+ {:block/name "public",
+  :block/created-at 1760502661796,
+  :block/updated-at 1760503319394}
  {:block/name "todo",
   :block/created-at 1760450624143,
   :block/updated-at 1760450624143}
