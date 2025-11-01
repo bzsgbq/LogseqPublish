@@ -1,15 +1,40 @@
-[{:block/name "@vggt: visual geometry grounded transformer",
+[{:block/name "#blue",
+  :block/created-at 1761988633922,
+  :block/updated-at 1761988633922}
+ {:block/name "#green",
+  :block/created-at 1761988634155,
+  :block/updated-at 1761988634155}
+ {:block/name "1a7b4982-1f39-4e9b-ad55-758efd31430d",
+  :block/created-at 1761988563882,
+  :block/updated-at 1761988563882}
+ {:block/name "531c91a5-629f-407a-a5ce-899fd2af5dd8",
+  :block/created-at 1761988604382,
+  :block/updated-at 1761988604382}
+ {:block/name
+  "@open-world drone active tracking with goal-centered rewards",
+  :block/created-at 1761830454421,
+  :block/updated-at 1761988743012}
+ {:block/name "@vggt: visual geometry grounded transformer",
   :block/created-at 1760450908800,
   :block/updated-at 1760455027672}
  {:block/name "a",
   :block/created-at 1760450624143,
   :block/updated-at 1760450624143}
+ {:block/name "abstract",
+  :block/created-at 1761988633915,
+  :block/updated-at 1761988633915}
+ {:block/name "attachments",
+  :block/created-at 1761988633918,
+  :block/updated-at 1761988633918}
  {:block/name "b",
   :block/created-at 1760450624143,
   :block/updated-at 1760450624143}
  {:block/name "c",
   :block/created-at 1760450624143,
   :block/updated-at 1760450624143}
+ {:block/name "c8c0c653-8b6f-44c6-b9bf-0a90b222b260",
+  :block/created-at 1761988492119,
+  :block/updated-at 1761988492119}
  {:block/name "canceled",
   :block/created-at 1760450624143,
   :block/updated-at 1760450624143}
@@ -37,18 +62,24 @@
  {:block/name "later",
   :block/created-at 1760450624143,
   :block/updated-at 1760450624143}
+ {:block/name "notes",
+  :block/created-at 1761988633918,
+  :block/updated-at 1761988633918}
+ {:block/name "nov 1st, 2025",
+  :block/created-at 1761987744618,
+  :block/updated-at 1761987744618}
  {:block/name "now",
   :block/created-at 1760450624143,
   :block/updated-at 1760450624143}
  {:block/name "oct 14th, 2025",
   :block/created-at 1760450359155,
   :block/updated-at 1760503314482}
- {:block/name "oct 15th, 2025",
-  :block/created-at 1760457603866,
-  :block/updated-at 1760457603866}
  {:block/name "public",
   :block/created-at 1760502661796,
-  :block/updated-at 1760503319394}
+  :block/updated-at 1761830521500}
+ {:block/name "tl;dr",
+  :block/created-at 1761987918763,
+  :block/updated-at 1761987918763}
  {:block/name "todo",
   :block/created-at 1760450624143,
   :block/updated-at 1760450624143}
