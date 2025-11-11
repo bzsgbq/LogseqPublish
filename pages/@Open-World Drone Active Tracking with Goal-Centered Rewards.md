@@ -31,6 +31,7 @@ public:: true
 	- Comment: NeurIPS 2025
 -
 ## 1 Introduction
+collapsed:: true
 	- ### 背景
 		- 视觉主动跟踪（Visual Active Tracking, VAT）旨在通过基于视觉观测控制跟踪器的运动系统来自主地跟随目标物体 [80, 75]。它被广泛用于无人机目标跟踪与安全监控等现实应用场景 [22, 73, 77, 54]。
 		- 不同于被动视觉跟踪（passive visual tracking）[3, 74, 33, 5, 9, 84, 67, 58]——后者是在固定相机姿态下逐帧为目标提出二维边界框——VAT 会主动调整相机位置以将目标保持在视野内。由于大多数目标具有高度动态性，被动视觉跟踪在现实场景中往往不足以应对。因此，VAT 为在动态环境中实现有效跟踪提供了一个更实用但也更具挑战性的解决方案。
@@ -101,6 +102,7 @@ public:: true
 				- 在模拟器与真实图片上的实验验证了 DAT 的可用性与 GC-VAT 的有效性；
 				- 在模拟器上，GC-VAT 达到约 72% 的跟踪成功率。
 ## 2 Task Definition of Drone Active Tracking (无人机主动跟踪任务定义)
+collapsed:: true
 	- DAT 任务旨在训练一个模型以在动态环境中控制无人机进行主动目标跟踪（见图 1）。
 		- 图1
 		  id:: c8c0c653-8b6f-44c6-b9bf-0a90b222b260
@@ -157,6 +159,7 @@ collapsed:: true
 						- ![image.png](../assets/image_1761755461942_0.png){:width 400,:height 800}
 				- 我们的控制器同时符合交通规则，并能模拟交通灯等待、交通拥堵等现象。更重要的是，该控制器可应用到任何 3D 场景中。
 ## 4 基于强化学习的 VAT
+collapsed:: true
 	- 在本文中，我们主要聚焦 DAT 基准中的核心任务——视觉主动跟踪（VAT）。
 	- 我们提出了一种基于强化学习的无人机视觉主动跟踪方法，称为 Goal-CenteredVAT（GC-VAT），旨在提升复杂场景中跟踪目标的性能。
 	- 如图 1 所示，我们将无人机主动跟踪建模为马尔可夫决策过程（MDP），并训练一个能够适应不受限视点条件以在开放场景中跟踪目标的无人机智能体（Drone Agent）。
@@ -361,6 +364,7 @@ collapsed:: true
 				- ![image.png](../assets/image_1761830037166_0.png){:width 300}
 			- 这一成功的 **零样本仿真到现实迁移（Sim-to-Real Transfer）** 充分验证了我们方法的实际可行性。
 - ## 6 结论与潜在影响
+  collapsed:: true
 	- 本文提出了首个**开放世界无人机主动空地跟踪基准（Drone Active air-to-ground Tracking benchmark, DAT）**。
 		- DAT 基准涵盖 24 个城市级场景，包含具有人类行为特征的目标与高保真动力学仿真，并提供支持无限场景生成的数字孪生工具。
 		- DAT 基准有望推动以下关键研究领域的发展：
