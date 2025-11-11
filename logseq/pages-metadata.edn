@@ -4,6 +4,9 @@
  {:block/name "#green",
   :block/created-at 1761988634155,
   :block/updated-at 1761988634155}
+ {:block/name "#red",
+  :block/created-at 1762849540087,
+  :block/updated-at 1762849540087}
  {:block/name "1a7b4982-1f39-4e9b-ad55-758efd31430d",
   :block/created-at 1761988563882,
   :block/updated-at 1761988563882}
@@ -11,9 +14,25 @@
   :block/created-at 1761988604382,
   :block/updated-at 1761988604382}
  {:block/name
+  "@3d-mem: 3d scene memory for embodied exploration and reasoning",
+  :block/created-at 1762849540691,
+  :block/updated-at 1762849540691}
+ {:block/name
+  "@a survey of large language model-powered spatial intelligence across scales: advances in embodied agents, smart cities, and earth science",
+  :block/created-at 1762849540686,
+  :block/updated-at 1762849540686}
+ {:block/name
+  "@aligning cyber space with physical world: a comprehensive survey on embodied ai",
+  :block/created-at 1762849540686,
+  :block/updated-at 1762849540686}
+ {:block/name
   "@from reactive to cognitive: brain-inspired spatial intelligence for embodied agents",
   :block/created-at 1762845729874,
   :block/updated-at 1762848925028}
+ {:block/name
+  "@mind meets space: rethinking agentic spatial intelligence from a neuroscience-inspired perspective",
+  :block/created-at 1762849540689,
+  :block/updated-at 1762849540689}
  {:block/name
   "@move to understand a 3d scene: bridging visual grounding and exploration for efficient and versatile embodied navigation",
   :block/created-at 1762849397750,
@@ -23,9 +42,25 @@
   :block/created-at 1762849456997,
   :block/updated-at 1762849456997}
  {:block/name
+  "@neural brain: a neuroscience-inspired framework for embodied agents",
+  :block/created-at 1762849540689,
+  :block/updated-at 1762849540689}
+ {:block/name
+  "@omninav: a unified framework for prospective exploration and visual-language navigation",
+  :block/created-at 1762849540691,
+  :block/updated-at 1762849540691}
+ {:block/name
   "@open-world drone active tracking with goal-centered rewards",
   :block/created-at 1761830454421,
   :block/updated-at 1761988743012}
+ {:block/name
+  "@openfrontier: general navigation with visual-language grounded frontiers",
+  :block/created-at 1762849540691,
+  :block/updated-at 1762849540691}
+ {:block/name
+  "@robomemory: a brain-inspired multi-memory agentic framework for interactive environmental learning in physical embodied systems",
+  :block/created-at 1762849540689,
+  :block/updated-at 1762849540689}
  {:block/name "@vggt: visual geometry grounded transformer",
   :block/created-at 1760450908800,
   :block/updated-at 1760455027672}
@@ -46,7 +81,7 @@
   :block/updated-at 1762849472163}
  {:block/name "awesome spatial intelligence",
   :block/created-at 1762849374683,
-  :block/updated-at 1762849383710}
+  :block/updated-at 1762849654904}
  {:block/name "b",
   :block/created-at 1760450624143,
   :block/updated-at 1760450624143}
