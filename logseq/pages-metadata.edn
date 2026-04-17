@@ -30,6 +30,10 @@
   :block/created-at 1762845729874,
   :block/updated-at 1762848925028}
  {:block/name
+  "@leworldmodel: stable end-to-end joint-embedding predictive architecture from pixels",
+  :block/created-at 1776417492271,
+  :block/updated-at 1776417492271}
+ {:block/name
   "@mind meets space: rethinking agentic spatial intelligence from a neuroscience-inspired perspective",
   :block/created-at 1762849540689,
   :block/updated-at 1762849540689}
@@ -70,6 +74,9 @@
  {:block/name "abstract",
   :block/created-at 1761988633915,
   :block/updated-at 1761988633915}
+ {:block/name "apr 17th, 2026",
+  :block/created-at 1776417486867,
+  :block/updated-at 1776417492272}
  {:block/name "attachments",
   :block/created-at 1761988633918,
   :block/updated-at 1761988633918}
